@@ -1,12 +1,12 @@
 {
     "scripts": {
-        "namespace": "oc",
-        "init": ["init.js"],
+        "namespace": "custom",
+        "init": ["assets/js/init.js"],
         "app": [],
         "setup": []
     },
-    "template": "body.html",
-    "styles": ["style.css"],
+    "template": "assets/html/body.html",
+    "styles": ["assets/css/style.css"],
     "images": [],
 
     "sections": {
