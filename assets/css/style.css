@@ -1,0 +1,115 @@
+body{
+    overflow:hidden;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+.span10{
+    margin-left:0 !important;
+    width:85% !important;
+}
+.span2{
+    width:15% !important;
+}
+
+/* .toolbar, */
+/* .gcheader{ */
+/*     display:none; */
+/* } */
+
+#gclayertree{
+    margin-top:20px;
+}
+
+.navbar{
+    margin:0;
+    z-index:1000;
+    position:relative;
+}
+
+.navbar .nav > li > a {
+    color: #D6F5FF;
+}
+.navbar .brand {
+    color:white !important;
+    text-shadow:none;
+
+    padding:0 20px 0 0px;
+}
+
+.navbar-inner .container{
+    margin-top:5px;
+}
+
+.navbar-inner{
+    min-height:50px;
+    background-color:#0097C6;
+    background-image:none;
+    -webkit-border-radius:0;
+    border-radius:0;
+    border:none;
+    /* -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5); */
+    -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow:none; */
+}
+
+.navbar .nav > li > a{
+    color:#D6F5FF;
+    text-shadow:none;
+}
+.navbar .nav > li > a:hover{
+    color:white;
+}
+
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover{
+    color:white;
+    background-color:#00a0d2 !important;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    color: white;
+    background-color: #00a0d2 !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    color: #333;
+    background-color: #fafafa;
+}
+
+.dropdown-menu .divider{
+    padding:0;
+    margin:9px 1px;
+    border-top:none;
+}
+
+.navbar .nav li.dropdown > a:hover .caret, .navbar .nav li.dropdown > a:focus .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: #D6F5FF;
+    border-bottom-color: #D6F5FF;
+}
+
+.navbar .divider-vertical {
+    height: 40px;
+    margin: 0 9px;
+    border-right: 1px solid #00a0d2;
+    border-left: 1px solid #00a0d2;
+}

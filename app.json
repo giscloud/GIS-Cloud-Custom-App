@@ -1,0 +1,37 @@
+{
+    "scripts": {
+        "namespace": "oc",
+        "init": ["init.js"],
+        "app": [],
+        "setup": []
+    },
+    "template": "body.html",
+    "styles": ["style.css"],
+    "images": [],
+
+    "sections": {
+
+        "main": {
+            "panels": [
+                {
+                    "module": "map"
+                }
+            ]
+        },
+        "left": {
+            "panels": [
+                {
+                    "module": "layerlist"
+                }
+            ]
+        },
+        "right": {
+            "tabs": [
+                {
+                    "module": "search",
+                    "options": {}
+                }
+            ]
+        }
+    }
+}
