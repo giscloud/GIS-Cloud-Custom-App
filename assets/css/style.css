@@ -148,3 +148,22 @@ body{
 .leaflet-control-gc-layers .gc-icon{
     opacity:0.5;
 }
+
+#layerdata_table{
+    box-shadow:0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.omnigrid .hDiv{
+    background-color: #f3f3f3;
+    background-image:none;
+}
+
+.omnigrid .hDiv .th,
+.omnigrid .bDiv .td{
+    border-right: 1px solid #eee !important;
+    border-left: 1px solid transparent !important;
+}
+
+.omnigrid .hDiv .th {
+    border-bottom: 1px solid #ddd;
+}
