@@ -7,31 +7,5 @@
     },
     "template": "assets/html/body.html",
     "styles": ["assets/css/style.css"],
-    "images": [],
-
-    "sections": {
-
-        "main": {
-            "panels": [
-                {
-                    "module": "map"
-                }
-            ]
-        },
-        "left": {
-            "panels": [
-                {
-                    "module": "layerlist"
-                }
-            ]
-        },
-        "right": {
-            "tabs": [
-                {
-                    "module": "search",
-                    "options": {}
-                }
-            ]
-        }
-    }
+    "images": []
 }
