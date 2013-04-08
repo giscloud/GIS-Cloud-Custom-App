@@ -174,22 +174,16 @@ body{
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
 }
 
-.gc-limit-notification{
-    background-color: #e20000;
-    /* width:300px; */
-    padding:5px 8px 5px 8px;
-    color: white;
-    font-size:12px;
-    opacity:0.8;
-    font-weight:500;
-
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+.gc-github-ribbon{
+    display:none;
 }
 
-.gc-limit-notification a{
-    color:white !important;
-    text-decoration:underline !important;
-    font-weight:500;
+@media all and (min-width: 1001px) {
+    #signupcombo{
+        margin-right:140px;
+    }
+
+    .gc-github-ribbon{
+        display:block;
+    }
 }
