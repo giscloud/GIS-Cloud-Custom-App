@@ -1,11 +1,6 @@
 <div class="navbar">
     <div class="navbar-inner">
         <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
             <a class="brand" href="http://www.giscloud.com" target="_blank" >
                 <img id="logo" src="http://www.giscloud.com/assets/images/giscloud_logo_white.png" width="60" height="43">
                 GIS Cloud
@@ -25,7 +20,7 @@
                 </ul>
 
                 <div>
-                    <gc:loginbox />
+                    <gc:signin />
                 </div>
 
             </div>
@@ -41,9 +36,7 @@
     <div class="row-fluid" >
         <div class="span12 gc-app" >
 
-            <div id="gc_layers_box" style="z-index:999; width:200px; position:absolute; top:183px; left: 10px; border:1px solid #ccc; " >
-                <gc:layerlist style="width:100%; height:100px;" />
-            </div>
+            <div id="gc_layers_box" style="z-index:999; width:200px; position:absolute; top:183px; left: 10px; border:1px solid #ccc; " ></div>
 
             <gc:maptoolbar style="width:100%; background-color:#f3f3f3" />
             <div class="clear" ></div>
@@ -51,7 +44,7 @@
 
             <gc:infotable style="width:300px; height:150px; position:absolute; top:200px; right:0; " />
 
-            <gc:datagrid style="height:200px" />
+            <div id="featureDatagrid" style="height:228px"></div>
 
         </div>
     </div>
@@ -59,4 +52,5 @@
 
 <!-- GitHub fork me button -->
 <a class="gc-github-ribbon" target="_blank" href="https://github.com/giscloud/GIS-Cloud-Custom-App" ><img style="z-index:10000; position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
 
